@@ -6,12 +6,14 @@ import hombre from "../assets/img/hombre-bostezando.jpg";
 
 export function Banner() {
   return (
-    <section className="banner" id="home">
+    <section className="banner">
       <div className="container">
         <div className="row align-items-center">
           <div className=" p-3  col col-sm-12 col-md-6 col-l-6">
             <div className="animate__animated animate__fadeIn ">
-              <span className="tagline">Bienvenido a TECNO CREDITO</span>
+              <span className="tagline" id="home">
+                Bienvenido a TECNO CREDITO
+              </span>
               <h1 className="wrap">Lorem Ipsum is simply dummy text</h1>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting

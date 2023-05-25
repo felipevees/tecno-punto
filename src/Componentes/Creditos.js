@@ -52,17 +52,9 @@ export function Creditos() {
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
-      <img
-        className="background-image-left"
-        src={colorSharp}
-        alt="background2"
-      />
     </section>
   );
 }
-

@@ -21,15 +21,17 @@ export function NavBar() {
   return (
     <nav className={`navbar navbar-expand-lg  ${scrolled ? "scrolled" : ""}`}>
       <div className="container-fluid ">
-        <img
-          src={logo}
-          className="img-fluid "
-          alt="logo"
-          style={{
-            height: "40px",
-            marginRight: "15px",
-          }}
-        ></img>
+        <a href="#home">
+          <img
+            src={logo}
+            className="img-fluid "
+            alt="logo"
+            style={{
+              height: "40px",
+              marginRight: "15px",
+            }}
+          ></img>
+        </a>
         <a className="navbar-brand" href="#home">
           TECNO-CREDITO
         </a>
@@ -61,14 +63,15 @@ export function NavBar() {
                 Sobre nosotros
               </a>
             </li>
-            <li className="nav-item">
-              <a id="link3" className="nav-link active" href="#creditos">
-                Creditos
-              </a>
-            </li>
+
             <li className="nav-item">
               <a id="link4" className="nav-link active" href="#productos">
                 Productos
+              </a>
+            </li>
+            <li className="nav-item">
+              <a id="link3" className="nav-link active" href="#creditos">
+                Creditos
               </a>
             </li>
           </ul>

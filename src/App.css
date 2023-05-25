@@ -326,19 +326,21 @@ span.navbar-text {
 .footer {
     
     margin-bottom: 0;
-    padding: 0 0 50px 0;
-    background-image: url('./assets/img/img2/footer-bg.png');
+    padding: 20px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .footer img {
-    width: 26%;
+    max-width: 50px;
+    border-radius: 10px;
 }
-.footer p {
-    font-weight: 400;
-    font-size: 14px;
-    color: #B8B8B8;
-    letter-spacing: 0.5px;
-    margin-top: 20px;
+
+
+.footer-link{
+    padding: 8px 10px;
+    color: #fff !important;
+    font-size: 15px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
