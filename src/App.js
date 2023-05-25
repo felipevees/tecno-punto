@@ -19,6 +19,7 @@ function App() {
         <Info />
         <CarouselC />
         <Creditos />
+        <Footer/>
       </header>
     </div>
   );
