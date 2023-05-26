@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import logo from "../assets/img/logos/logo-dark.jpg";
 import hombre from "../assets/img/hombre-bostezando.jpg";
 
 export function Banner() {
@@ -23,7 +22,7 @@ export function Banner() {
               </p>
             </div>
           </div>
-          <div className="p-3 col col-sm-12 col-md-6 col-l-6">
+          <div className="p-3 col col-sm-12 col-md-6 col-l-6 d-flex justify-content-center align-items-center">
             <div className="animate__animated animate__zoomIn ">
               <img className="img-fluid img-medium" src={hombre} alt="logo" />
             </div>

@@ -69,16 +69,11 @@ export function NavBar() {
                 Productos
               </a>
             </li>
-            <li className="nav-item">
-              <a id="link3" className="nav-link active" href="#creditos">
-                Creditos
-              </a>
-            </li>
           </ul>
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://instagram.com/tecnocreditooficial?igshid=MzRlODBiNWFlZA==">
-                <img src={navIcon3} alt=""></img>
+                <img src={navIcon3} alt="instagram"></img>
               </a>
             </div>
           </span>

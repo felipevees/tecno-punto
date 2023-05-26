@@ -6,22 +6,28 @@ import {
   Banner,
   CarouselC,
   Info,
-  Creditos,
   Footer,
+  FixedButton,
 } from "./Componentes";
 
 function App() {
   return (
     <div>
       <header>
-        <NavBar />
+        <nav>
+          <NavBar />
+        </nav>
         <Banner />
+        <FixedButton />
+      </header>
+      <main>
         <Info />
         <CarouselC />
-        <Creditos />
+      </main>
+      <footer>
         <hr />
         <Footer />
-      </header>
+      </footer>
     </div>
   );
 }
