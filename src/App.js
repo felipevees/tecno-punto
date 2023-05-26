@@ -19,8 +19,8 @@ function App() {
         <Info />
         <CarouselC />
         <Creditos />
-        <hr/>
-        <Footer/>
+        <hr />
+        <Footer />
       </header>
     </div>
   );
