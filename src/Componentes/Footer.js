@@ -22,6 +22,7 @@ export function Footer() {
           <div className="col col-xs-6 col-sm-6 col-md-3 col-l-3 col-xl-3">
             <a className="footer-link btn" href="#">Correo</a>
           </div>
+         
         </div>
       </div>
     </footer>
