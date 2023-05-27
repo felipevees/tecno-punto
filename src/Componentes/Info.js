@@ -8,13 +8,14 @@ export function Info() {
     <section className="carousel" id="sobre-nosotros">
       <div className="container mb-5">
         <div className="carousel-bx wow zoomIn">
-          <h2>Sobre nosotros</h2>
+        <h2>Sobre nosotros</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.<br></br> Lorem Ipsum has been the industry's standard
-            dummy text.Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry.<br></br> Lorem Ipsum has been the industry's
-            standard dummy text.
+            Somos una empresa Colombiana que se está extendiendo en todo el 
+            territorio nacional con miras<br></br> a otros países, gracias al más avanzado sistema de plataforma 
+            remoto de créditos para equipos celulares. <br></br> Tenemos más de 20 años de experiencia, 
+            deseamos complacer a nuestros clientes para que sean parte de la historia y nosotros los acompañemos 
+            siempre en su bolsillo con nuestros equipos a crédito con<br></br> las mayores facilidades y
+            tecnología disponible en el mercado.
           </p>
         </div>
       </div>

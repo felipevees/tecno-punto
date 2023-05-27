@@ -31,6 +31,7 @@ export function Footer() {
               Correo
             </a>
           </div>
+         
         </div>
       </div>
     </footer>
