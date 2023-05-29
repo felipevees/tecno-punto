@@ -6,7 +6,7 @@ import whatsapp1 from "../assets/img/img2/whatsapp-icon.svg";
 export function FixedButton() {
   return (
     <div className="whatsapp-icon">
-      <a href="#">
+      <a href="https://wa.link/kpu8i3">
         <img src={whatsapp1} alt="whatsapp"></img>
       </a>
     </div>
