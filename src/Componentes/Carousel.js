@@ -39,6 +39,8 @@ export function CarouselC() {
               <p>
                 Este es nuestro catálogo actualizado <br></br> Que vamos
                 renovando cada vez que equipos más modernos llegan al mercado.
+                Este es nuestro catálogo actualizado <br></br> Que vamos
+                renovando cada vez que equipos más modernos llegan al mercado.
               </p>
               <Carousel
                 responsive={responsive}
