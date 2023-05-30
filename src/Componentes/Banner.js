@@ -13,12 +13,10 @@ export function Banner() {
               <span className="tagline" id="home">
                 Bienvenido a TECNO CREDITO
               </span>
-              <h1 className="wrap">Lorem Ipsum is simply dummy text</h1>
+              <h1 className="wrap">Somos tu solución de Crédito Celular</h1>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Jamás fue tan sencillo tener el celular que necesitas en solo 5
+                minutos. Es fácil, Sin complicaciones y solo con tu cédula.
               </p>
             </div>
           </div>

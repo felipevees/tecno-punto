@@ -37,9 +37,8 @@ export function CarouselC() {
             <div className="carousel-bx wow zoomIn">
               <h2>Productos</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                Este es nuestro catálogo actualizado <br></br> Que vamos
+                renovando cada vez que equipos más modernos llegan al mercado.
               </p>
               <Carousel
                 responsive={responsive}
