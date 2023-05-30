@@ -13,7 +13,7 @@ export function Banner() {
               <span className="tagline" id="home">
                 Bienvenido a TECNO CREDITO
               </span>
-              <h1 className="wrap">Somos tu solución de Crédito Celular</h1>
+              <h1 className="wrap">Somos tu solución de Crédito Celular </h1>
               <p>
                 Jamás fue tan sencillo tener el celular que necesitas en solo 5
                 minutos. Es fácil, Sin complicaciones y solo con tu cédula.
