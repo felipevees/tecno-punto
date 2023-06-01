@@ -8,6 +8,7 @@ import dispositivo2 from "../assets/img/dispositivos/dispositivo2.jpg";
 import dispositivo3 from "../assets/img/dispositivos/dispositivo3.jpg";
 import dispositivo4 from "../assets/img/dispositivos/dispositivo4.jpg";
 import dispositivo5 from "../assets/img/dispositivos/dispositivo5.jpg";
+import dispositivo6 from "../assets/img/dispositivos/dispositivo6.jpg";
 
 export function CarouselC() {
   const responsive = {
@@ -94,6 +95,16 @@ export function CarouselC() {
                       className="img-fluid"
                       src={dispositivo5}
                       alt="dispositivo5"
+                    />
+                  </div>
+                </div>
+                <div className="item ">
+                  <div className="container d-flex justify-content-center">
+                    <img
+                      style={{ borderRadius: "10px" }}
+                      className="img-fluid"
+                      src={dispositivo6}
+                      alt="dispositivo6"
                     />
                   </div>
                 </div>

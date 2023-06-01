@@ -302,7 +302,7 @@ span.navbar-text {
     position: absolute;
     bottom: 0;
     width: 40%;
-    height:200%;
+    height:100%;
     z-index: -4;
   }
 
