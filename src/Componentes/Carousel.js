@@ -32,7 +32,7 @@ export function CarouselC() {
 
   return (
     <section className="carousel" id="productos">
-      <div className="container mb-5">
+      <div className="container mb-4">
         <div className="row">
           <div className="col-12">
             <div className="carousel-bx wow zoomIn">

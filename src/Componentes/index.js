@@ -4,3 +4,6 @@ export * from "./Banner";
 export * from "./Carousel";
 export * from "./Info";
 export * from "./FixedButton";
+export * from "./Button.js";
+export * from "./Documentospdf.js";
+export * from "./Videos.js";

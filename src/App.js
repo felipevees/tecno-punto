@@ -1,34 +1,15 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import {
-  NavBar,
-  Banner,
-  CarouselC,
-  Info,
-  Footer,
-  FixedButton,
-} from "./Componentes";
+import { Home, Documentos } from "./pages";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <header>
-        <nav>
-          <NavBar />
-        </nav>
-        <Banner />
-        <FixedButton />
-      </header>
-      <main>
-        <Info />
-        <CarouselC />
-      </main>
-      <footer>
-        <hr />
-        <Footer />
-      </footer>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/documentos" element={<Documentos />} />
+    </Routes>
   );
 }
 
