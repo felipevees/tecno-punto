@@ -21,6 +21,7 @@ export function Documentospdf() {
                       style={{ borderRadius: "10px", height: "90px" }}
                       className="img-fluid "
                       src={document}
+                      alt="documento1"
                     ></img>
                   </a>
                 </div>
@@ -38,6 +39,7 @@ export function Documentospdf() {
                       style={{ borderRadius: "10px", height: "90px" }}
                       className="img-fluid "
                       src={document}
+                      alt="documento2"
                     ></img>
                   </a>
                 </div>
@@ -55,6 +57,7 @@ export function Documentospdf() {
                       style={{ borderRadius: "10px", height: "90px" }}
                       className="img-fluid "
                       src={document}
+                      alt="documento3"
                     ></img>
                   </a>
                 </div>
@@ -72,6 +75,7 @@ export function Documentospdf() {
                       style={{ borderRadius: "10px", height: "90px" }}
                       className="img-fluid "
                       src={document}
+                      alt="documento4"
                     ></img>
                   </a>
                 </div>
