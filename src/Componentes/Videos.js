@@ -7,26 +7,28 @@ export function Videos() {
   return (
     <section>
       <div
-        style={{ height: "180px" }}
-        className="d-flex justify-content-center align-items-center page2"
+        style={{ height: "250px" }}
+        className="text-center page2 pt-5"
       >
-        <h1 style={{ fontSize: "50px" }} className=" fw-bold">
+        <h1 style={{ fontSize: "50px" }} className="mt-5 fw-bold">
           DOCUMENTOS
         </h1>
+        <p>En esta seccion veras el paso a paso de como es el proceso de enrolamiento en nuestra plataforma</p>
       </div>
       <div className="carousel mt-5">
         <div style={{ marginTop: "-80px" }} className="container mb-5">
           <div className="carousel-bx wow zoomIn">
-            <h2 className="mb-5" style={{ fontSize: "2.5rem" }}>
+            <h2 className="mb-0" style={{ fontSize: "2.5rem" }}>
               Enrolamiento
             </h2>
             <div className="video-wrapper">
-              <iframe
+              <video
                 className="responsive-video"
                 src={video1}
                 title="Enrolamiento Video"
                 controls
-              ></iframe>
+                style={{width:"100%"}}
+              ></video>
             </div>
           </div>
         </div>
@@ -44,12 +46,12 @@ export function Videos() {
               Verificacion de enrolamiento
             </h2>
             <div className="video-wrapper video2-wrapper">
-              <iframe
+              <video
                 className="responsive-video"
                 src={video2}
                 title="Verificacion de enrolamiento Video"
                 controls
-              ></iframe>
+              ></video>
             </div>
           </div>
         </div>

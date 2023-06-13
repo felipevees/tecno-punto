@@ -21,7 +21,7 @@ export function NavBar() {
   return (
     <nav className={`navbar navbar-expand-lg  ${scrolled ? "scrolled" : ""}`}>
       <div className="container-fluid ">
-        <a href="#home">
+        <a href="/#home">
           <img
             src={logo}
             className="img-fluid "
@@ -32,7 +32,7 @@ export function NavBar() {
             }}
           ></img>
         </a>
-        <a className="navbar-brand" href="#home">
+        <a className="navbar-brand" href="/#home">
           TECNO-CREDITO
         </a>
         <button
@@ -59,13 +59,13 @@ export function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a id="link2" className="nav-link active" href="#sobre-nosotros">
+              <a id="link2" className="nav-link active" href="/#sobre-nosotros">
                 Sobre nosotros
               </a>
             </li>
 
             <li className="nav-item">
-              <a id="link4" className="nav-link active" href="#productos">
+              <a id="link4" className="nav-link active" href="/#productos">
                 Productos
               </a>
             </li>

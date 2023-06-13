@@ -10,7 +10,8 @@ export function Documentospdf() {
     <section>
       <div className="container mt-5 mb-5">
         <div className="carousel-bx wow zoomIn">
-          <h2 className="mb-4">Documentos</h2>
+          <h2 className="mb-2">Documentos</h2>
+          <p className="col-sm-12 col-lg-8 mx-auto mb-5">Estos son los documentos que se necesitan para registrar a nuestros clientes en plataforma porfavor asegurate de que esten correctamente diligenciados</p>
           <div className="container text-center">
             <div className="row">
               <div className="col">

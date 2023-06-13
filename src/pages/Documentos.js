@@ -5,12 +5,14 @@ import {
   Documentospdf,
   Videos,
   Button,
+  NavBar,
 } from "../Componentes";
 
 export function Documentos() {
   return (
     <div>
       <header>
+        <NavBar />
         <FixedButton />
       </header>
       <main>
