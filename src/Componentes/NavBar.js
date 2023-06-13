@@ -69,6 +69,11 @@ export function NavBar() {
                 Productos
               </a>
             </li>
+            <li className="nav-item">
+              <a id="link4" className="nav-link active" href="/documentos">
+                Documentos
+              </a>
+            </li>
           </ul>
           <span className="navbar-text">
             <div className="social-icon">
