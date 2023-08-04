@@ -1,0 +1,17 @@
+.admin-layout {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px auto;
+    min-height: 100vh;
+}
+
+/* Estilos para el menú */
+.admin-layout__menu {
+    grid-area: menu;
+}
+
+/* Estilos para el contenido principal */
+.admin-layout__main-content {
+    grid-area: content;
+}

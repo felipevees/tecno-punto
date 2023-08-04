@@ -1,0 +1,11 @@
+.top-menu-admin {
+}
+
+.top-menu-admin__logo {
+    width: 250px;
+    background-color: #c4c4c4 !important;
+}
+
+.top-menu-admin i.icon {
+    margin: 0 !important;
+}

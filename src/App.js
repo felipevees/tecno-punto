@@ -1,15 +1,25 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
-import { Home, Documentos } from "./pages";
-import { Routes, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import { Navigation } from "./routes";
+import { AuthProvider } from "./context";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/documentos" element={<Documentos />} />
-    </Routes>
+    <AuthProvider>
+      <Navigation />
+      <ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        hideProgressBar
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        draggable
+        pauseOnHover={false}
+      />
+    </AuthProvider>
   );
 }
 
