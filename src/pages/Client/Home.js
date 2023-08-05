@@ -17,6 +17,7 @@ export function Home() {
       <FixedButton />
       <Info />
       <CarouselC />
+      <MyButton nombre="Consultar mi credito" link="consultCredit" />
       <MyButton nombre="Documentos" link="documentos" />
     </div>
   );

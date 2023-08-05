@@ -43,14 +43,6 @@ export function Footer() {
               Instagram
             </a>
           </div>
-          <div className="col col-xs-6 col-sm-6 col-md-2 col-l-2 col-xl-2">
-            <a
-              className="footer-link btn"
-              href="mailto:TecnoCredito.info@gmail.com"
-            >
-              Email
-            </a>
-          </div>
         </div>
       </div>
     </footer>

@@ -1,0 +1,7 @@
+.table-clients-admin td.status .icon.close {
+    color: red;
+}
+
+.table-clients-admin td.status .icon.check {
+    color: #008000;
+}

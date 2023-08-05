@@ -1,4 +1,4 @@
-.login-asesor {
+.consult-credit {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: center;
     background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   }
-.login-asesor__content{
+.consult-credit__content{
     background-color: white;
     padding: 50px 50px;
     border-radius: 20px;

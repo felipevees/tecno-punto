@@ -12,6 +12,8 @@ export function TableUsers({ users, updateUser, onDeleteUser }) {
           <Table.HeaderCell>Email</Table.HeaderCell>
           <Table.HeaderCell>Nombre</Table.HeaderCell>
           <Table.HeaderCell>Apellidos</Table.HeaderCell>
+          <Table.HeaderCell>Cc</Table.HeaderCell>
+          <Table.HeaderCell>Telefono</Table.HeaderCell>
           <Table.HeaderCell>Activo</Table.HeaderCell>
           <Table.HeaderCell>Staff</Table.HeaderCell>
         </Table.Row>
@@ -23,6 +25,8 @@ export function TableUsers({ users, updateUser, onDeleteUser }) {
             <Table.Cell>{user.email}</Table.Cell>
             <Table.Cell>{user.first_name}</Table.Cell>
             <Table.Cell>{user.last_name}</Table.Cell>
+            <Table.Cell>{user.cc}</Table.Cell>
+            <Table.Cell>{user.phone_number}</Table.Cell>
             <Table.Cell className="status">
               {user.is_active ? <Icon name="check" /> : <Icon name="close" />}
             </Table.Cell>

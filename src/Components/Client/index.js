@@ -7,3 +7,5 @@ export * from "./FixedButton";
 export * from "./MyButton";
 export * from "./Documentospdf";
 export * from "./VideosDocumentos";
+export * from "./ConsultCreditForm";
+export * from "./Credit";

@@ -4,6 +4,7 @@
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: black;
 }
 
 .add-edit-user-form__active .ui.checkbox,

@@ -1,5 +1,6 @@
 import React from "react";
 import { LoginForm } from "../../../Components/Admin";
+import { MyButton } from "../../../Components/Client";
 import "./LoginAdmin.css";
 
 export function LoginAdmin() {
@@ -9,6 +10,7 @@ export function LoginAdmin() {
         <h1 className="h1custom">Entrar al panel</h1>
         <LoginForm />
       </div>
+      <MyButton nombre="Volver a HOME" />
     </div>
   );
 }
