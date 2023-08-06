@@ -1,5 +1,5 @@
 import { ClientLayout, BasicLayout } from "../Layouts";
-import { Home, Documentos, ConsultCredit } from "../pages/Client";
+import { Home, Documentos, ConsultCredit, Credit } from "../pages/Client";
 
 const routesClient = [
   {
@@ -16,6 +16,11 @@ const routesClient = [
     path: "/consultCredit",
     layout: BasicLayout,
     component: ConsultCredit,
+  },
+  {
+    path: "/consultCredit/:clientCc",
+    layout: BasicLayout,
+    component: Credit,
   },
 ];
 

@@ -7,6 +7,7 @@ import {
 } from "../api/client";
 import { useState } from "react";
 import { useAuth } from ".";
+import { size } from "lodash";
 
 export function useClient() {
   const { auth } = useAuth();
@@ -63,6 +64,17 @@ export function useClient() {
       setLoading(false);
       setClient(response);
     } catch (error) {
+      setLoading(false);
+      setError(error);
+    }
+  };
+
+  const isExistClient = async (clientCc) => {
+    try {
+      const response = await getClientByCcApi(clientCc);
+      if (size(response) === 0) throw Error();
+      return true;
+    } catch (error) {
       setError(error);
     }
   };
@@ -77,5 +89,6 @@ export function useClient() {
     updateClient,
     deleteClient,
     getClientByCc,
+    isExistClient,
   };
 }
