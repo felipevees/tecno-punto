@@ -1,2 +1,2 @@
-# Getting Started with Create React App
-cellphone business app
+Tecno-Punto
+Cellphone business app
